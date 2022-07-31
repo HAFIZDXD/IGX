@@ -740,7 +740,7 @@ def massal(self):
 
 if __name__=='__main__':
     try:
-        login()
+        login_kamu()
     except requests.exceptions.ConnectionError:
         exit(f'\n [{M}!{C}] Koneksi internet bermasalah')
 
